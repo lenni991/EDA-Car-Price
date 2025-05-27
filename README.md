@@ -41,6 +41,10 @@ The analysis follows a structured approach:
    - Creating informative histograms for the distribution of the data and plots to illustrate key findings
    - Using correlation matrices to display relationships between variables
    - bar charts and histograms to show price distributions
+  
+     > Here's a scatter plot showing car mileage vs price. Each dot represents a car, with colors indicating its condition. The plot reveals that higher mileage cars generally sell for less money, with better condition cars (shown in greener colors) typically commanding higher prices.
+     ![image](https://github.com/user-attachments/assets/4996e369-3095-4971-8fab-665aa266a6b9)
+
 
 ## Tools & Technologies
 - Python
