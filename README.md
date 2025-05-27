@@ -20,7 +20,12 @@ The analysis follows a structured approach:
    - Converting datetime information from string format to proper datetime objects
    - Normalizing text fields for consistent analysis
    - Filtering extreme price values to focus on typical market transactions
-   - Extensive work on standardizing the make column to ensure consistent brand representation
+   - Extensive work on standardizing the body column to ensure consistent brand representation:
+        - >First converted all body types to lowercase, then used regex patterns to standardize similar terms - like combining all types of 'cab' into 'Truck'. This cleaned up over 50 messy categories into just 7 clear body types.
+           ![image](https://github.com/user-attachments/assets/b3ec1373-9eed-45f1-a1ad-6cacc8b7bf21)
+
+     
+
 
 2. **Feature Engineering**
    - Creating a price_deviation column to measure the difference between MMR (Manheim Market Report) value and actual selling price
