@@ -1,4 +1,4 @@
-# EDA Car Analysis
+# EDA Car Prices
 
 ## Project Overview
 This project explores the factors that influence used car prices through exploratory data analysis. Using a comprehensive dataset of over 558,000 used car sales records from Kaggle, I analyzed various vehicle attributes and their relationship with selling price.
